@@ -6,14 +6,17 @@
 #
 #    http://shiny.rstudio.com/
 #
-setwd("/Users/apple/Desktop/code/final")
+library(shinydashboard)
+require(pacman)
+p_load(data.table,tidyverse,dplyr,tidyr,plotly,RColorBrewer,geosphere,rgdal,ggplot2,ggmap,maptools,leaflet,sp,lubridate)
+
+setwd("/.../car-sharing-analysis")
 load("/data/gowork.Rda")
 load("/data/office.Rda")
 load("/data/residential.Rda")
 load("/data/animation_map1.Rda")
 load("/data/order1111test.Rda")
 load("/data/ChengduMap.Rda")
-
 
 load("/data/animation_map13.Rda")
 load("/data/panda.Rda")
@@ -28,9 +31,6 @@ load("/data/order1112test.Rda")
 
 
 
-library(shinydashboard)
-require(pacman)
-p_load(data.table,tidyverse,dplyr,tidyr,plotly,RColorBrewer,geosphere,rgdal,ggplot2,ggmap,maptools,leaflet,sp,lubridate)
 
 header <- dashboardHeader(
   title = "The Story of Chengdu: Car Sharing Data Exploration",titleWidth=600
