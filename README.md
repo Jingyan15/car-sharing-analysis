@@ -1,6 +1,8 @@
 # car-sharing-analysis
 What is the situation of mobile car sharing in China?  How people live with mobile car sharing?  What can we improve in mobile car sharing?
 
+Demo: https://youtu.be/7xicwqQjBKE
+
 We crawled the POI data from map API. After offset correction, we got locations of office building and residential area. To figure out when most people go to work, we first select orders that pick up in residential area and drop off in office building as working trip. To determine whether a pick-up place belongs to residential area, we calculate distance from pickup location to every residential area, pick-up place with minimum distance below 50 meters could be considered as residential. In the same way, we determine whether a drop-off is office building. After that, we generate order density plot, most people go out for work at 8:40, and arrive the office around 9:30.
 
 To figure out the road traffic situation in morning rush hour, we generate vehicle flow heat map from gps data. From 7 am, people live in suburb go out for work, and drive by elevated outer ring highway, making this sector as hot area. Then traffic flows gradually gather to city center, with high density area centralizing. There are several hotspots of vehicle density distributed at city center and crossroads. 
