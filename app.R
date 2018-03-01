@@ -7,24 +7,24 @@
 #    http://shiny.rstudio.com/
 #
 setwd("/Users/apple/Desktop/code/final")
-load("gowork.Rda")
-load("office.Rda")
-load("residential.Rda")
-load("animation_map1.Rda")
-load("order1111test.Rda")
-load("ChengduMap.Rda")
+load("/data/gowork.Rda")
+load("/data/office.Rda")
+load("/data/residential.Rda")
+load("/data/animation_map1.Rda")
+load("/data/order1111test.Rda")
+load("/data/ChengduMap.Rda")
 
 
-load("animation_map13.Rda")
-load("panda.Rda")
-load("relax.Rda")
-load("bar.Rda")
-load("officepoi.Rda")
-load("residentialpoi.Rda")
+load("/data/animation_map13.Rda")
+load("/data/panda.Rda")
+load("/data/relax.Rda")
+load("/data/bar.Rda")
+load("/data/officepoi.Rda")
+load("/data/residentialpoi.Rda")
 
-load("lineplot4weekday.Rda")
-load("lineplot4weekend.Rda")
-load("order1112test.Rda")
+load("/data/lineplot4weekday.Rda")
+load("/data/lineplot4weekend.Rda")
+load("/data/order1112test.Rda")
 
 
 
